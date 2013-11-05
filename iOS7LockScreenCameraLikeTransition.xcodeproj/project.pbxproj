@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43514C87181A41ED001CB5D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43514C85181A41ED001CB5D0 /* ViewController.m */; };
-		43514C88181A41ED001CB5D0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43514C86181A41ED001CB5D0 /* ViewController.xib */; };
-		43514C8C181A4331001CB5D0 /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43514C8A181A4331001CB5D0 /* ToViewController.m */; };
-		43514C8D181A4331001CB5D0 /* ToViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43514C8B181A4331001CB5D0 /* ToViewController.xib */; };
-		43514C8F181AEBDF001CB5D0 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 43514C8E181AEBDF001CB5D0 /* red.png */; };
 		43514C93181AF168001CB5D0 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43514C92181AF168001CB5D0 /* Reveal.framework */; };
 		43514C95181AF25C001CB5D0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43514C94181AF25C001CB5D0 /* CFNetwork.framework */; };
 		436BE8C01818217D0019A9F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BE8BF1818217D0019A9F4 /* QuartzCore.framework */; };
-		43954D96182925D800E55313 /* AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 43954D93182925D800E55313 /* AnimatedTransitioning.m */; };
-		43954D97182925D800E55313 /* PercentDrivenTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 43954D95182925D800E55313 /* PercentDrivenTransition.m */; };
+		43954D9E182927D100E55313 /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43954D99182927D100E55313 /* ToViewController.m */; };
+		43954D9F182927D100E55313 /* ToViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43954D9A182927D100E55313 /* ToViewController.xib */; };
+		43954DA0182927D100E55313 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43954D9C182927D100E55313 /* ViewController.m */; };
+		43954DA1182927D100E55313 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43954D9D182927D100E55313 /* ViewController.xib */; };
+		43954DA7182927E700E55313 /* AnimatedTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 43954DA4182927E700E55313 /* AnimatedTransitioning.m */; };
+		43954DA8182927E700E55313 /* PercentDrivenTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 43954DA6182927E700E55313 /* PercentDrivenTransition.m */; };
 		43EEC7331816B4D30079D5B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EEC7321816B4D30079D5B3 /* Foundation.framework */; };
 		43EEC7351816B4D30079D5B3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EEC7341816B4D30079D5B3 /* CoreGraphics.framework */; };
 		43EEC7371816B4D30079D5B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EEC7361816B4D30079D5B3 /* UIKit.framework */; };
@@ -42,20 +41,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		43514C84181A41ED001CB5D0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		43514C85181A41ED001CB5D0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		43514C86181A41ED001CB5D0 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		43514C89181A4331001CB5D0 /* ToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToViewController.h; sourceTree = "<group>"; };
-		43514C8A181A4331001CB5D0 /* ToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToViewController.m; sourceTree = "<group>"; };
-		43514C8B181A4331001CB5D0 /* ToViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToViewController.xib; sourceTree = "<group>"; };
-		43514C8E181AEBDF001CB5D0 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
 		43514C92181AF168001CB5D0 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		43514C94181AF25C001CB5D0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		436BE8BF1818217D0019A9F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		43954D92182925D800E55313 /* AnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatedTransitioning.h; sourceTree = "<group>"; };
-		43954D93182925D800E55313 /* AnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatedTransitioning.m; sourceTree = "<group>"; };
-		43954D94182925D800E55313 /* PercentDrivenTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PercentDrivenTransition.h; sourceTree = "<group>"; };
-		43954D95182925D800E55313 /* PercentDrivenTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PercentDrivenTransition.m; sourceTree = "<group>"; };
+		43954D98182927D100E55313 /* ToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToViewController.h; path = Controllers/ToViewController.h; sourceTree = "<group>"; };
+		43954D99182927D100E55313 /* ToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToViewController.m; path = Controllers/ToViewController.m; sourceTree = "<group>"; };
+		43954D9A182927D100E55313 /* ToViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ToViewController.xib; path = Controllers/ToViewController.xib; sourceTree = "<group>"; };
+		43954D9B182927D100E55313 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
+		43954D9C182927D100E55313 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
+		43954D9D182927D100E55313 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = Controllers/ViewController.xib; sourceTree = "<group>"; };
+		43954DA3182927E700E55313 /* AnimatedTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimatedTransitioning.h; path = Transition/AnimatedTransitioning.h; sourceTree = "<group>"; };
+		43954DA4182927E700E55313 /* AnimatedTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimatedTransitioning.m; path = Transition/AnimatedTransitioning.m; sourceTree = "<group>"; };
+		43954DA5182927E700E55313 /* PercentDrivenTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PercentDrivenTransition.h; path = Transition/PercentDrivenTransition.h; sourceTree = "<group>"; };
+		43954DA6182927E700E55313 /* PercentDrivenTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PercentDrivenTransition.m; path = Transition/PercentDrivenTransition.m; sourceTree = "<group>"; };
 		43EEC72F1816B4D30079D5B3 /* iOS7LockScreenCameraLikeTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS7LockScreenCameraLikeTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43EEC7321816B4D30079D5B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		43EEC7341816B4D30079D5B3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -104,14 +102,25 @@
 		43348D471819595B00204751 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				43514C84181A41ED001CB5D0 /* ViewController.h */,
-				43514C85181A41ED001CB5D0 /* ViewController.m */,
-				43514C86181A41ED001CB5D0 /* ViewController.xib */,
-				43514C89181A4331001CB5D0 /* ToViewController.h */,
-				43514C8A181A4331001CB5D0 /* ToViewController.m */,
-				43514C8B181A4331001CB5D0 /* ToViewController.xib */,
+				43954D98182927D100E55313 /* ToViewController.h */,
+				43954D99182927D100E55313 /* ToViewController.m */,
+				43954D9A182927D100E55313 /* ToViewController.xib */,
+				43954D9B182927D100E55313 /* ViewController.h */,
+				43954D9C182927D100E55313 /* ViewController.m */,
+				43954D9D182927D100E55313 /* ViewController.xib */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		43954DA2182927D400E55313 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				43954DA3182927E700E55313 /* AnimatedTransitioning.h */,
+				43954DA4182927E700E55313 /* AnimatedTransitioning.m */,
+				43954DA5182927E700E55313 /* PercentDrivenTransition.h */,
+				43954DA6182927E700E55313 /* PercentDrivenTransition.m */,
+			);
+			name = Transition;
 			sourceTree = "<group>";
 		};
 		43EEC7261816B4D20079D5B3 = {
@@ -150,10 +159,7 @@
 		43EEC7381816B4D30079D5B3 /* InteractiveTransitionPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				43954D92182925D800E55313 /* AnimatedTransitioning.h */,
-				43954D93182925D800E55313 /* AnimatedTransitioning.m */,
-				43954D94182925D800E55313 /* PercentDrivenTransition.h */,
-				43954D95182925D800E55313 /* PercentDrivenTransition.m */,
+				43954DA2182927D400E55313 /* Transition */,
 				43348D471819595B00204751 /* Controllers */,
 				43EEC7411816B4D30079D5B3 /* AppDelegate.h */,
 				43EEC7421816B4D30079D5B3 /* AppDelegate.m */,
@@ -166,7 +172,6 @@
 		43EEC7391816B4D30079D5B3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				43514C8E181AEBDF001CB5D0 /* red.png */,
 				43EEC73A1816B4D30079D5B3 /* iOS7LockScreenCameraLikeTransition-Info.plist */,
 				43EEC73B1816B4D30079D5B3 /* InfoPlist.strings */,
 				43EEC73E1816B4D30079D5B3 /* main.m */,
@@ -269,11 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43954DA1182927D100E55313 /* ViewController.xib in Resources */,
 				43EEC74E1816B4D30079D5B3 /* Images.xcassets in Resources */,
 				43EEC73D1816B4D30079D5B3 /* InfoPlist.strings in Resources */,
-				43514C88181A41ED001CB5D0 /* ViewController.xib in Resources */,
-				43514C8F181AEBDF001CB5D0 /* red.png in Resources */,
-				43514C8D181A4331001CB5D0 /* ToViewController.xib in Resources */,
+				43954D9F182927D100E55313 /* ToViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,12 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43954D97182925D800E55313 /* PercentDrivenTransition.m in Sources */,
-				43514C87181A41ED001CB5D0 /* ViewController.m in Sources */,
 				43EEC7431816B4D30079D5B3 /* AppDelegate.m in Sources */,
-				43954D96182925D800E55313 /* AnimatedTransitioning.m in Sources */,
 				43EEC73F1816B4D30079D5B3 /* main.m in Sources */,
-				43514C8C181A4331001CB5D0 /* ToViewController.m in Sources */,
+				43954DA8182927E700E55313 /* PercentDrivenTransition.m in Sources */,
+				43954DA7182927E700E55313 /* AnimatedTransitioning.m in Sources */,
+				43954DA0182927D100E55313 /* ViewController.m in Sources */,
+				43954D9E182927D100E55313 /* ToViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
