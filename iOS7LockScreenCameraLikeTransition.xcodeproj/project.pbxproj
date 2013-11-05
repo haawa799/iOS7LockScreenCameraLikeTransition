@@ -40,7 +40,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		43514C92181AF168001CB5D0 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		43514C94181AF25C001CB5D0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		436BE8BF1818217D0019A9F4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		43954D98182927D100E55313 /* ToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToViewController.h; path = Controllers/ToViewController.h; sourceTree = "<group>"; };
@@ -144,7 +143,6 @@
 			isa = PBXGroup;
 			children = (
 				43514C94181AF25C001CB5D0 /* CFNetwork.framework */,
-				43514C92181AF168001CB5D0 /* Reveal.framework */,
 				436BE8BF1818217D0019A9F4 /* QuartzCore.framework */,
 				43EEC7321816B4D30079D5B3 /* Foundation.framework */,
 				43EEC7341816B4D30079D5B3 /* CoreGraphics.framework */,
