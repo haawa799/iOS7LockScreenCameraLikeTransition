@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		43514C93181AF168001CB5D0 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43514C92181AF168001CB5D0 /* Reveal.framework */; };
 		43514C95181AF25C001CB5D0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43514C94181AF25C001CB5D0 /* CFNetwork.framework */; };
 		436BE8C01818217D0019A9F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BE8BF1818217D0019A9F4 /* QuartzCore.framework */; };
 		43954D9E182927D100E55313 /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43954D99182927D100E55313 /* ToViewController.m */; };
@@ -80,7 +79,6 @@
 				43514C95181AF25C001CB5D0 /* CFNetwork.framework in Frameworks */,
 				436BE8C01818217D0019A9F4 /* QuartzCore.framework in Frameworks */,
 				43EEC7351816B4D30079D5B3 /* CoreGraphics.framework in Frameworks */,
-				43514C93181AF168001CB5D0 /* Reveal.framework in Frameworks */,
 				43EEC7371816B4D30079D5B3 /* UIKit.framework in Frameworks */,
 				43EEC7331816B4D30079D5B3 /* Foundation.framework in Frameworks */,
 			);
@@ -429,7 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InteractiveTransitionPlayground/iOS7LockScreenCameraLikeTransition-Prefix.pch";
 				INFOPLIST_FILE = "InteractiveTransitionPlayground/iOS7LockScreenCameraLikeTransition-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
 				PRODUCT_NAME = iOS7LockScreenCameraLikeTransition;
 				WRAPPER_EXTENSION = app;
@@ -448,7 +446,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "InteractiveTransitionPlayground/iOS7LockScreenCameraLikeTransition-Prefix.pch";
 				INFOPLIST_FILE = "InteractiveTransitionPlayground/iOS7LockScreenCameraLikeTransition-Info.plist";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = iOS7LockScreenCameraLikeTransition;
 				WRAPPER_EXTENSION = app;
 			};
