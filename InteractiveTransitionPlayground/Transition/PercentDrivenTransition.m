@@ -7,7 +7,6 @@
 //
 
 #import "PercentDrivenTransition.h"
-#import "ViewController.h"
 
 
 #define GRAVITY_STRENGTH 8
@@ -165,9 +164,9 @@
     switch (self.orientation) {
         case UIInterfaceOrientationPortrait:
             qFirst =  CGPointMake(0,
-                                      -self.container.bounds.size.height - (self.container.bounds.size.height - self.heightToReleasePoint));
+                                  -self.container.bounds.size.height - (self.container.bounds.size.height - self.heightToReleasePoint));
             qSecond = CGPointMake(self.container.bounds.size.width,
-                                      -self.container.bounds.size.height - (self.container.bounds.size.height - self.heightToReleasePoint));
+                                  -self.container.bounds.size.height - (self.container.bounds.size.height - self.heightToReleasePoint));
             
             break;
         case UIInterfaceOrientationPortraitUpsideDown:
@@ -180,14 +179,14 @@
             qFirst =  CGPointMake(2*self.container.bounds.size.width + (self.container.bounds.size.width - self.heightToReleasePoint),
                                   0);
             qSecond = CGPointMake(2*self.container.bounds.size.width + (self.container.bounds.size.width - self.heightToReleasePoint),
-                                  self.container.bounds.size.width);
+                                  self.container.bounds.size.height);
             
             break;
         case UIInterfaceOrientationLandscapeLeft:
-            qFirst =  CGPointMake(0,
-                                  -self.container.bounds.size.width - (self.container.bounds.size.width - self.heightToReleasePoint));
-            qSecond = CGPointMake(self.container.bounds.size.width,
-                                  -self.container.bounds.size.width - (self.container.bounds.size.width - self.heightToReleasePoint));
+            qFirst =  CGPointMake(-self.container.bounds.size.width - (self.container.bounds.size.width - self.heightToReleasePoint),
+                                  0);
+            qSecond = CGPointMake(-self.container.bounds.size.width - (self.container.bounds.size.width - self.heightToReleasePoint),
+                                  self.container.bounds.size.height);
             break;
             
         default:
